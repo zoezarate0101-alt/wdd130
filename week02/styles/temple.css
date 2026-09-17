@@ -1,0 +1,58 @@
+{
+        margin: 0;
+        padding: 0;
+        box-sixing: border-box
+    }
+
+    body {
+        font-family: arial, sans-serif;
+        line-height: 1.6;
+    }
+
+    header,
+    footer {
+        background-color: lightblue;
+        color: white;
+        padding: 10px 0;
+        text-align: center;
+        font: size 1.5em;
+    }
+
+    main {
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    h1 {
+        margin: 10px;
+        text-align: center;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        box-shadow: 0 0 30px gray;
+    }
+
+    section {
+        sargin: 20px 0;
+        margin: 10px;
+        border: 1px solid gray(0 0 0/ 10%);
+        padding: 10px;
+        background-color: lightblue;
+        font-size: .9rem;
+
+    }
+
+    section p {
+        sargin: 10px;
+    }
+
+    footer {
+        sargin: 20px 0;
+        border: 1px solid gray;
+        background-color: lightblue;
+        padding: 10px;
+        text-align: center;
+        font-size: .9rem;
+    }
