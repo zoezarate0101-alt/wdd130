@@ -36,13 +36,14 @@ footer {
 }
 
 .hero {
-    postion: relative
+    postion: absolute;
 }
 
 .hero img {
     display: block;
     width: 100%;
     height: auto;
+    position: relative;
 }
 
 h1,
@@ -52,7 +53,7 @@ h2 {
 }
 
 h1 {
-    position: absolute;
+    position: relative;
     top: 20px;
     width: 100%;
     padding: 16px;
