@@ -33,7 +33,7 @@ nav a {
 
 h1 {
     color: lightblue;
-    border-bottom: 1rem;
+    border-style: bottom 1rem;
 }
 
 h2 {
