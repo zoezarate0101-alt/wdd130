@@ -22,13 +22,6 @@ header {
     color: var(--second-color);
 }
 
-img {
-    display: grid;
-    grid-template-columns: 120px 1fr 1fr;
-    align-items: center;
-
-}
-
 body {
     font-family: var(--body-font);
     color: var(--accent-color);
@@ -40,21 +33,20 @@ footer {
     width: 840px;
     margin: 0 auto;
     position: relative;
-    width: 100%;
     height: auto;
     display: block;
 
 }
 
 .hero {
-    postion: absolute;
+    postion: relative;
 }
 
 .hero img {
     display: block;
     width: 100%;
     height: auto;
-    position: relative;
+    position: absolute;
 }
 
 h1,
@@ -64,7 +56,7 @@ h2 {
 }
 
 h1 {
-    position: relative;
+    position: absolute;
     top: 20px;
     width: 100%;
     padding: 16px;
@@ -102,12 +94,13 @@ article {
     height: auto;
 }
 
-.hero article img {
+.hero article {
     float: right;
     width: 125px;
     border: 3px;
     margin: 3px;
     box-shadow: 3px;
+    position: absolute;
 }
 
 nav {
