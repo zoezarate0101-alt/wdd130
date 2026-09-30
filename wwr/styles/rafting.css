@@ -122,6 +122,15 @@ article {
     padding: 8px;
 }
 
+footer {
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr;
+    grid-row: inherit;
+}
+
 .socialmedia a {
     text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
