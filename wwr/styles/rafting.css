@@ -24,7 +24,7 @@ header {
 
 body {
     font-family: var(--body-font);
-    color: var(--accent-color);
+    color: #000;
 }
 
 header,
@@ -32,49 +32,23 @@ main,
 footer {
     width: 840px;
     margin: 0 auto;
-    position: relative;
-    height: auto;
-    display: block;
 
 }
 
 .hero {
-    postion: relative;
+    position: relative;
 }
 
 .hero img {
     display: block;
     width: 100%;
     height: auto;
-    position: absolute;
 }
 
 h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
-}
-
-h1 {
-    position: absolute;
-    top: 20px;
-    width: 100%;
-    padding: 16px;
-    text-align: center;
-    opacity: 0.7;
-    background-color: var(--accent1-color);
-    color: #fff;
-}
-
-h2 {
-    display: flex;
-    position: relative;
-    height: auto;
-    padding: 16px;
-    text-align: center;
-    opacity: 0.7;
-    background-color: var(--accent1-color);
-    color: #fff;
 }
 
 img {
@@ -94,13 +68,30 @@ article {
     height: auto;
 }
 
-.hero article {
+.hero article img {
     float: right;
     width: 125px;
     border: 3px;
     margin: 3px;
     box-shadow: 3px;
+}
+
+h1 {
     position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #fff;
+}
+
+article {
+    position: absolute;
+    top: 250px;
+    padding: 16px;
+
 }
 
 nav {
