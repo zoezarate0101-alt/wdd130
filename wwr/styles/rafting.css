@@ -8,18 +8,16 @@
     --primary-color: #0055a05;
     --second-color: dark;
     --accent1-color: lightblue;
-    --accent2-color: light rgba(255, 255, 0, 0.365);
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
 
 header {
+    background-color: var(--primary-color);
+    color: var(--second-color);
     display: grid;
     grid-template-columns: 120px 1fr 1fr;
     align-items: center;
-    gap: 2fr;
-    background-color: var(--primary-color);
-    color: var(--second-color);
 }
 
 body {
@@ -27,7 +25,7 @@ body {
     color: #000;
 }
 
-header,
+head,
 main,
 footer {
     width: 840px;
@@ -57,7 +55,7 @@ img {
 }
 
 article {
-    postion: absolute;
+    position: absolute;
     top: 20px;
     width: 100%;
     padding: 16px;
@@ -94,15 +92,20 @@ article {
 
 }
 
+div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 nav {
     display: flex;
     list-style: none;
-    flex-direction: column;
-    justify-content: space-between;
+    flex: 1 1 auto;
 }
 
-li {
-    flex: 1 1 auto;
+h2 {
+    display: block;
+    flex-direction: column-reverse;
 }
 
 nav,
@@ -111,6 +114,11 @@ section,
 article {
     margin: 16px;
     padding: 8px;
+}
+
+section {
+    display: flexbox;
+    list-style: none;
 }
 
 footer {
