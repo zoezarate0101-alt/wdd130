@@ -20,6 +20,14 @@ header {
     align-items: center;
 }
 
+section {
+    margin: 20px;
+    border: 1px;
+    padding: 10px;
+    font-size: .9rem;
+
+}
+
 body {
     font-family: var(--body-font);
     color: #000;
@@ -76,7 +84,7 @@ article {
 
 h1 {
     position: absolute;
-    top: 20px;
+    top: 50px;
     width: 100%;
     padding: 16px;
     text-align: center;
@@ -128,8 +136,6 @@ footer {
 }
 
 .socialmedia a {
+    position: absolute;
     text-decoration: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
