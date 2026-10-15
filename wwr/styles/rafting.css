@@ -33,26 +33,23 @@ body {
     color: #000;
 }
 
-head,
+header,
 main,
 footer {
-    width: 840px;
+    width: 840%;
     margin: 0 auto;
-
-}
-
-.hero {
-    position: relative;
 }
 
 .hero img {
     display: block;
     width: 100%;
     height: auto;
+    position: absolute;
 }
 
 h1,
-h2 {
+h2,
+h3 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
@@ -80,11 +77,19 @@ article {
     border: 3px;
     margin: 3px;
     box-shadow: 3px;
+    position: absolute;
+}
+
+nav {
+    display: flex;
+    list-style: none;
+    flex: 1 1 auto;
+    text-align: center;
 }
 
 h1 {
     position: absolute;
-    top: 50px;
+    top: 20%;
     width: 100%;
     padding: 16px;
     text-align: center;
@@ -95,9 +100,7 @@ h1 {
 
 article {
     position: absolute;
-    top: 250px;
-    padding: 16px;
-
+    top: 150px;
 }
 
 div {
@@ -105,15 +108,24 @@ div {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-nav {
-    display: flex;
-    list-style: none;
-    flex: 1 1 auto;
+h2 {
+    top: 50px;
+    width: 100%;
+    padding: 5px;
+    margin: 3px;
+    text-align: center;
+    opacity: 0.9;
+    background-color: var(--accent1-color);
+    color: black;
 }
 
-h2 {
-    display: block;
-    flex-direction: column-reverse;
+h3 {
+    top: 50px;
+    width: auto;
+    padding: 5px;
+    margin: 3px;
+    text-align: center;
+    color: black;
 }
 
 nav,
@@ -125,17 +137,16 @@ article {
 }
 
 section {
-    display: flexbox;
+    display: flex;
     list-style: none;
 }
 
 footer {
     display: grid;
     grid-template-columns: 2fr 3fr 2fr;
-    grid-row: inherit;
 }
 
 .socialmedia a {
-    position: absolute;
     text-decoration: none;
+    display: flex;
 }
